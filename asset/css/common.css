@@ -142,7 +142,7 @@ i.gray { color: #838383; }
 }
 
 /* 푸터 */
-.footer { background-color: #00624e; padding: 50px 0 70px; }
+.footer { background-color: #00624e; padding: 50px 0 calc(70px + 300px); }
 .footer * { color: #fff; }
 .footer .ft-flex-wrap { display: flex; gap: 24px; }
 .footer .ft-flex-wrap > div { width: 100%; }
