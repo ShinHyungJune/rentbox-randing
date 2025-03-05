@@ -5,10 +5,10 @@
 
     <div class="hd-nav">
         <ul>
-            <li><a href="">하나 캐피탈 인기 차량 추천</a></li>
-            <li><a href="">즉출특가 BEST</a></li>
-            <li><a href="">상품 안내</a></li>
-            <li><a href="">계약 절차</a></li>
+            <li><a href="#section02">하나 캐피탈 인기 차량 추천</a></li>
+            <li><a href="#section03">즉출특가 BEST</a></li>
+            <li><a href="#section04">상품 안내</a></li>
+            <li><a href="#section05">계약 절차</a></li>
         </ul>
     </div>
 
@@ -18,3 +18,27 @@
         <button><i class="xi-message"></i></button>
     </div>
 </div>
+
+<script>
+    $(document).ready(function() {
+        $("a[href^='#']").click(function(event) {
+            event.preventDefault(); // 기본 이동 방지
+            var target = $(this.getAttribute("href"));
+            if (target.length) {
+                $("html, body").animate({ scrollTop: target.offset().top - 100 }, 600);
+            }
+        });
+    });
+
+    $(document).ready(function () {
+        $(".consultation-btn").on("click", function () {
+            $(".consultation-bar-fixed").addClass("blink-effect");
+
+            // 0.5초 후에 클래스 제거 (깜빡이는 효과)
+            setTimeout(function () {
+                $(".consultation-bar-fixed").removeClass("blink-effect");
+            }, 400);
+        });
+    });
+</script>
+

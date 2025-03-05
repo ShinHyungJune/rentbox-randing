@@ -124,7 +124,8 @@ i.gray { color: #838383; }
 .header { display: flex; height: 80px; width: 100%; position: fixed; align-items: center; justify-content: space-between; padding: 0 20px; border-bottom: 1px solid #d9d9d9; background-color: #fff; z-index: 99; }
 .header .hd-nav { display: block; background-color: #fff; }
 .header .hd-nav ul { display: flex; gap: 56px; }
-.header .hd-nav ul li a { font-size: 17px; font-weight: 400; }
+.header .hd-nav ul li a { font-size: 17px; font-weight: 400; transition: all 0.3s; }
+.header .hd-nav ul li a:hover { color: #008e71; }
 .header .consultation-btn { display: flex; justify-content: center; align-items: center; gap: 10px; height: 38px; padding: 0 16px; border-radius: 20px; border: solid 2px #008e71; font-weight: bold; color: #008e71; font-size: 16px; }
 .header .consultation-btn i { font-size: 22px; }
 .header .mb-btn-nav { display: none; }
