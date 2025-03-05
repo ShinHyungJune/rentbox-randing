@@ -203,14 +203,14 @@
     .main-section-title-wrap .sub-title { font-size: 12px; }
 }
 
-.main-page .section01 { padding-top: 24px; padding-bottom: 32px; border-bottom: 1px solid #d9d9d9; }
+.main-page .section01 { padding-top: 24px; padding-bottom: 32px; margin-bottom: 80px; border-bottom: 1px solid #d9d9d9; }
 .main-page .section01 .car-search-bar-wrap { margin-bottom: 32px; }
 @media screen and (max-width: 1280px) {
     .main-page .section01 .car-search-bar-wrap { margin-bottom: 20px; }
 }
 
-.main-page .section02 { padding-top: 80px; padding-bottom: 148px; }
-.main-page .section02 .slide-type2 { margin-bottom: 99px; }
+.main-page .section02 { padding-top: unset; padding-bottom: 148px; }
+/* .main-page .section02 .slide-type2 { margin-bottom: 99px; } */
 @media screen and (max-width: 1280px) {
     .main-page .section02 { padding-bottom: 80px; }
 }
