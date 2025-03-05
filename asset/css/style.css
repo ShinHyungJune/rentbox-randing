@@ -1,8 +1,9 @@
 .body { padding-top: 80px; }
 
-.btn-type1 { padding: 0 24px; border-radius: 22px; height: 36px; font-size: 16px; font-weight: 600; display: inline-flex; justify-content: center; align-items: center; gap: 8px; }
+.btn-type1 { padding: 0 24px; border-radius: 22px; height: 36px; font-size: 16px; font-weight: 600; display: inline-flex; justify-content: center; align-items: center; gap: 8px; transition: all 0.3s; }
 .btn-type1 img { width: 24px; }
 .btn-type1.green { color: #fff; background-color: #008e71; }
+.btn-type1.green:hover { color: #008e71; background-color: #fff; border: 1px solid #008e71; }
 .btn-type1.bd-green { color: #008e71; border: 1px solid #008e71; }
 .btn-type1.bd-gray { color: #202020; border: solid 1px rgba(0, 0, 0, 0.2); }
 .btn-type1.kakao { color: #371c1d; background-color: #f8e049; }
@@ -172,7 +173,9 @@
 .slide-type2 .swiper-slide:hover .car-img img { transform: unset; }
 .slide-type2 .swiper-slide.swiper-slide-active:hover .car-img img { transform: scale(1.1); }
 
-
+@media screen and (max-width: 1280px) {
+    .slide-type2 .swiper-slide .agreement-list-wrap { padding: 0 16px; }
+}
 
 
 .slide-type2 .swiper-scrollbar { width: 320px; position: static; margin: 48px auto 0; max-width: 100%; opacity: 1 !important; }
@@ -236,7 +239,9 @@
 .consultation-bar-type1 .consultation-bar-bt { padding-top: 14px; padding-right: 200px; }
 .consultation-bar-type1 .consultation-bar-bt .btn-wrap { display: flex; justify-content: flex-end; gap: 12px; }
 .consultation-bar-type1 .consultation-bar-bt .btn-wrap .btn-type1 { padding-left: 16px; padding-right: 16px; }
-.consultation-bar-type1 .consultation-btn { width: 131px; height: 128px; display: flex; justify-content: center; align-items: center; border-radius: 8px; background-color: #008e71; color: #fff; font-size: 16px; font-weight: 600; position: absolute; right: 30px; top: 24px; }
+.consultation-bar-type1 .consultation-btn { width: 131px; height: 128px; display: flex; justify-content: center; align-items: center; border-radius: 8px; background-color: #008e71; color: #fff; font-size: 16px; font-weight: 600; position: absolute; right: 30px; top: 24px; transition: all 0.3s; }
+.consultation-bar-type1 .consultation-btn:hover { background-color: #fff; color: #008e71; border: 1px solid #008e71; }
+
 @media screen and (max-width: 1480px) {
     .consultation-bar-type1 .consultation-bar-bt .btn-wrap { justify-content: flex-start; }
 }
