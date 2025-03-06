@@ -325,8 +325,8 @@
 @media screen and (max-width: 1280px) {
     .section06 { padding-bottom: 80px; }
 }
-.faq-slide-group { display: flex; gap: 24px; height: 480px; }
-.faq-slide-group > div { width: 100%; }
+.faq-slide-group { display: flex; gap: 24px; height: 500px; }
+.faq-slide-group > div { width: 100%; padding-bottom: 4px; }
 .faq-slide-group .faq-thumb-slide .swiper-slide { min-height: 80px; height: fit-content; border-radius: 16px; background-color: #efefef; display: flex; padding: 30px 32px; align-items: center; cursor: pointer; }
 .faq-slide-group .faq-thumb-slide .swiper-slide .num { font-size: 20px; font-weight: bold; color: #000; }
 .faq-slide-group .faq-thumb-slide .swiper-slide .title { font-size: 20px; font-weight: bold; color: #000; padding-left: 16px; }
@@ -336,7 +336,7 @@
 .faq-slide-group .faq-slide { border-radius: 16px; background-color: #e0f1ee; overflow: hidden; }
 .faq-slide-group .faq-slide .swiper-slide { padding: 40px 40px 92px; display: flex; flex-direction: column; }
 .faq-slide-group .faq-slide .swiper-slide .title { font-size: 20px; font-weight: bold; color: #008e71; padding-bottom: 24px; min-height: fit-content; }
-.faq-slide-group .faq-slide .swiper-slide .content { line-height: 1.6; max-height: 100%; display: block; overflow: auto; word-break: keep-all; }
+.faq-slide-group .faq-slide .swiper-slide .content { line-height: 1.6; max-height: 100%; display: block; overflow: auto; white-space: pre-line; word-break:keep-all }
 .faq-slide-group .faq-slide .swiper-btn-wrap { position: absolute; margin-top: 24px; z-index: 1; display: flex; gap: 24px; justify-content: center; left: 40px; bottom: 40px; }
 .faq-slide-group .faq-slide .swiper-btn-wrap * { position: static; margin: unset;  }
 .faq-slide-group .faq-slide .swiper-btn-wrap .button { color: #000; width: 32px; height: 32px; background-color: #fff; border-radius: 100%;  }
